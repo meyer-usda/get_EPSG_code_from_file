@@ -1,10 +1,13 @@
 ### Python script to get EPSG code from a raster or las/laz file
 
 Provide a raster file or a las/laz file and this script will try to pull the EPSG code from the EXIF/header
+This was written quickly - reach out to meyer.taffel@usda.gov to troubleshoot
 
-#### Use these commands to install and run the script:
+#### Installation and Running Instructions
 
-##### Load packages using conda
+Open anaconda powershell/command prompt
+
+##### Load packages using conda (or activate an environment that has these packages installed)
 - conda create -n getEPSG -c conda-forge python laspy pyproj rasterio
 - conda activate getEPSG
 - cd ./path/to/the/python/script
